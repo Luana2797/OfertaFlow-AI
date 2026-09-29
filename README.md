@@ -9,3 +9,21 @@ OfertaFlow AI helps businesses create personalized marketing content and visual 
 ## Features
 
 - Generates personalized marketing copy using artificial intelligence. 
+
+- Creates visual templates for Instagram posts and Stories.
+
+- Supports product details, prices, discounts, coupons and calls to action.
+
+- Allows customization of colors and visual styles for different brands.
+
+
+## Technologies
+
+- Python
+
+- Google Gemini API 
+
+- Streamlit
+
+- Pillow
+
