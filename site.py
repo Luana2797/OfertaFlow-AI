@@ -116,12 +116,11 @@ def criar_arte(
         largura = 1080
         altura = 1080
 
-        imagem = criar_fundo_gradiente(
+    imagem = criar_fundo_gradiente(
         largura,
         altura,
         cor_secundaria
     )
-
     desenho = ImageDraw.Draw(imagem) 
       
     fonte_marca = carregar_fonte(58, True)
@@ -371,10 +370,9 @@ cor_secundaria = st.color_picker(
 )
 
 logo = st.file_uploader(
-    "Logotipo da marca",
+     "LOgotipo da Marca",
     type=["png", "jpg", "jpeg"]
 )
-
 
 # Informações do produto
 st.header("3. Informações do produto ou serviço")
